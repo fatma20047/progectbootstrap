@@ -1,0 +1,552 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <!-- Font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <!-- Css -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  </head>
+  <body>
+<div class="container py-3">
+  <div class="row align-items-center">
+    
+    <!-- Search -->
+    <div class="col-4 text-start">
+      <a href="#"><img src="./assets/image/icons/search.svg" alt=""></a>
+    </div>
+
+    <!-- Logo -->
+    <div class="col-4 text-center">
+      <img src="./assets/image/logo/image (1).png" class="logo img-fluid" style="max-width: 150px;" alt="logo">
+    </div>
+
+    <!-- Icons -->
+    <div class="col-4 text-end">
+      <a href="login.html"><img src="./assets/image/icons/user.svg" class="mx-1 icon-size" alt=""></a> 
+      <a href="#"><img src="./assets/image/icons/heart.svg" class="mx-1 icon-size" alt=""></a>
+      <a href="#"><img src="./assets/image/icons/bell.svg" class="mx-1 icon-size" alt=""></a>
+    </div>
+
+  </div>
+</div>
+
+<hr>
+  <nav class="navbar navbar-expand-lg  sticky-top bg-body ">
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link p-2 p-lg-3 active" aria-current="page" href="#">Home</a>
+        </li>
+
+        <li class="nav-item ">
+          <a class="nav-link p-2 p-lg-3  " href="menu.html">Menus</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link p-2 p-lg-3 " href="#">Shop</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link p-2 p-lg-3 " href="#">Recipes</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link p-2 p-lg-3 " href="#">Special Dishes</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link p-2 p-lg-3 " href="#">Drinks</a>
+        </li>
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<!-- /* START carousel */ -->
+<header>
+  <div id="carouselExampleCaptions" class="carousel slide">
+
+    <!-- Indicators -->
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></button>
+    </div>
+
+    <!-- Slides -->
+    <div class="carousel-inner text-center">
+
+      <!-- Slide 1 -->
+      <div class="carousel-item active">
+        <img src="./assets/image/slide/food1.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-flex flex-column justify-content-center h-100 align-items-center">
+          <p class="text-deep-red. hero-line1"> Taste Our Food</p>
+          <h2 class="text-white hero-line2">The Festival Offer / Hygenic Food</h2>
+          <p class="text-golden-yellow hero-line3">
+            <span class="text-white">&#9734;</span> 50% Offer / All Food Items <span class="text-white">&#9734;</span>
+          </p>
+          <button class=" border-0  hovered-btn">Book A Table</button>
+        </div>
+      </div>
+
+      <!-- Slide 2 -->
+      <div class="carousel-item ">
+        <img src="./assets/image/slide/food2.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-flex flex-column justify-content-center h-100 align-items-center">
+          <p class="text-deep-red hero-line1">Welcome to</p>
+          <h2 class="hero-line2">SPICY <span>RESTAURANT</span></h2>
+          <p class="text-golden-yellow hero-line3">
+            <span class="text-white">&#9734;</span> Family Cusine <span class="text-white">&#9734;</span>
+          </p>
+          <button class=" back-red border-0  hovered-btn">Book A Table</button>
+        </div>
+      </div>
+
+      <!-- Slide 3 -->
+      <div class="carousel-item">
+        <img src="./assets/image/slide/food3.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-flex flex-column justify-content-center h-100 carousel-box align-items-center">
+          <p class="text-deep-red hero-line1">Spices Hygenic</p>
+          <h2 class="hero-line2">First Time Launch in Spices Food</h2>
+          <p class="text-golden-yellow hero-line3">
+            <span class="text-white">&#9734;</span> Visit our restaurant for more recipes! <span class="text-white">&#9734;</span>
+          </p>
+          <button class="back-red border-0 text-white hovered-btn">Book A Table</button>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Controls -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+
+  </div>
+</header>
+<!-- /* END carousel */ -->
+
+<!-- START Our Menu -->
+<section class="container py-5 chefscroll">
+  <div class="row">
+    <div class="menu-header text-center mb-5">
+      <h2 class="menu-title">Our Menu</h2>
+      <p class="menu-description text-black">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <img src="./assets/image/OurMenu/title.png" alt="">
+    </div>
+    
+    <div class="col-lg-4 col-md-6 mb-4">
+      <div class="menu-item1 text-center ms-5">
+        <img src="./assets/image/OurMenu/ChickenStuff.jpg" class="img-fluid rounded-circle mb-2 dotted-border" alt="">
+        <h4 class="menu-item-title" >Chicken Stuff</h4>
+        <p class="text-black">Integer eget aliquet nibh praesent tristique magna sit. Quisque sagittis purus</p>
+      </div>
+
+      <div class="menu-item2 text-center me-5">
+        <img src="./assets/image/OurMenu/HotNoodles.jpg" class="img-fluid rounded-circle mb-2 dotted-border" alt="">
+        <h4 class="menu-item-title">Hot Noodles</h4>
+        <p class="text-black">Diam ut venenatis tellus in. Est placerat in egestas erat. Eget nullam non nisi</p>
+      </div>
+
+      <div class="menu-item3 text-center mt-4">
+        <img src="./assets/image/OurMenu/FriedChicken.jpg" class="img-fluid rounded-circle mb-2 dotted-border" alt="">
+        <h4 class="menu-item-title">Fried Chicken</h4>
+        <p class="text-black">Quis imperdiet massa tincidunt nunc. Quis risus sed vulputate odio ut enim</p>
+      </div>
+    </div>
+
+    <!-- -->
+    <div class="col-lg-4 col-md-12 text-center mb-4 pt-5 d-flex flex-column align-items-center">
+        <img src="./assets/image/OurMenu/headChef.jpg" class="img-fluid rounded mb-3 img-chef" alt="">
+        <button class="btn btn-primary hovered-btn-chef rounded-circle mt-1">Zachary Porter Head Chef</button>
+    </div>
+
+    <!-- -->
+    <div class="col-lg-4 col-md-6 mb-4">
+      <div class="menu-item1 text-center ms-5">
+        <img src="./assets/image/OurMenu/SpicySandwich.jpg" class="img-fluid rounded-circle mb-2 dotted-border" alt="">
+        <h4 class="menu-item-title">Spicy Sandwich</h4>
+        <p class="text-black">Tellus rutrum tellus pellentesque eu tincidunt tortor aliquam nulla enim</p>
+      </div>
+
+      <div class="menu-item text-center ms-5">
+        <img src="./assets/image/OurMenu/MixVegSalad.jpg" class="img-fluid rounded-circle mb-2 dotted-border" alt="">
+        <h4 class="menu-item-title">Mix Veg Salad</h4>
+        <p class="text-black">Nec ullamcorper sit amet risus nullam. Vitae suscipit tellus mauris a diam</p>
+      </div>
+
+      <div class="menu-item text-center me-5">
+        <img src="./assets/image/OurMenu/GrilledChicken.jpg" class="img-fluid rounded-circle mb-2 dotted-border" alt="">
+        <h4 class="menu-item-title">Grilled Chicken</h4>
+        <p class="text-black">Fermentum leo vel orci porta non pulvinar neque laoreet suspendisse dui</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+<!-- END Our Menu -->
+
+<div class="products">
+<div class="product-card d-flex justify-content-center"> 
+<img src="./assets/image/slid0/delicious.webp" alt="featured product" class="product-image order-2">
+
+    <div class="product-info">
+      <div class="text-center mb-4">
+        <h2 class="product-title">New arrivals</h2>
+        <p class="product-description">Fresh and healthy breakfast available from 7am</p>
+      </div>
+
+      <div class="product-img d-flex justify-content-center gap-3 flex-wrap">
+
+        
+        <div class="img-container border w-25">
+          <div class="img-box position-relative overflow-hidden">
+            <img src="./assets/image/slid0/Creamy.jpg"  alt="" class="img1 img-fluid">
+            <img src="./assets/image/slid0/salid.jpg"  alt="" class="img2 img-fluid">
+            <div class="badge bg-danger position-absolute top-0 end-0 m-2">Save 39%</div>
+
+            
+            <div class="icon-overlay position-absolute top-50 start-50 translate-middle d-flex gap-2">
+              <a href="#" class="btn btn-outline-dark btn-sm"><i class="fa-solid fa-link"></i></a>
+              <a href="#" class="btn btn-outline-dark btn-sm"><i class="fa-regular fa-heart"></i></a>
+              <a href="#" class="btn btn-outline-dark btn-sm"><i class="fa-solid fa-magnifying-glass"></i></a>
+            </div>
+          </div>
+
+          <div class="text-center mt-2">
+            <h2 class="card-title">Creamy Vegetable Salad</h2>
+            <span class="text-success">$121.00</span>
+            <span class="text-decoration-line-through">$200.00</span>
+          </div>
+        </div>
+
+        
+        <div class="img-container border w-25">
+          <div class="img-box position-relative overflow-hidden">
+            <img src="./assets/image/slid0/Boiled.jpg"  alt="" class="img1 img-fluid">
+            <img src="./assets/image/slid0/chekn.jpg" alt=""  class="img2 img-fluid">
+            <div class="badge bg-danger position-absolute top-0 end-0 m-2">Save 39%</div>
+            <div class="icon-overlay position-absolute top-50 start-50 translate-middle d-flex gap-2">
+              <a href="#" class="btn btn-outline-dark btn-sm"><i class="fa-solid fa-link"></i></a>
+              <a href="#" class="btn btn-outline-dark btn-sm"><i class="fa-regular fa-heart"></i></a>
+              <a href="#" class="btn btn-outline-dark btn-sm"><i class="fa-solid fa-magnifying-glass"></i></a>
+            </div>
+          </div>
+
+          <div class="text-center mt-2">
+            <h2 class="card-title">Boiled Prawn Salad</h2>
+            <span class="text-success">$337.00</span>
+            <span class="text-decoration-line-through">$400.00</span>
+          </div>
+        </div>
+
+        
+        <div class="img-container border w-25">
+          <div class="img-box position-relative overflow-hidden">
+            <img src="./assets/image/slid0/fried.jpg"  alt="" class="img1 img-fluid">
+            <img src="./assets/image/slid0/Boiled.jpg"  alt="" class="img2 img-fluid">
+            <div class="badge bg-danger position-absolute top-0 end-0 m-2">Save 39%</div>
+            <div class="icon-overlay position-absolute top-50 start-50 translate-middle d-flex gap-2">
+              <a href="#" class="btn btn-outline-dark btn-sm"><i class="fa-solid fa-link"></i></a>
+              <a href="#" class="btn btn-outline-dark btn-sm"><i class="fa-regular fa-heart"></i></a>
+              <a href="#" class="btn btn-outline-dark btn-sm"><i class="fa-solid fa-magnifying-glass"></i></a>
+            </div>
+          </div>
+
+          <div class="text-center mt-2">
+            <h2 class="card-title">Fried Fish</h2>
+            <span class="text-success">$337.00</span>
+            <span class="text-decoration-line-through">$450.00</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- slid 2 -->
+
+<div class="products">
+  <div class="product-card d-flex justify-content-center">
+
+
+<img src="./assets/image/slid0/delicious.webp" alt="featured product" class="product-image order-1">
+
+    <div class="product-info">
+      <div class="text-center mb-4">
+        <h2 class="product-title">New arrivals</h2>
+        <p class="product-description">Fresh and healthy breakfast available from 7am</p>
+      </div>
+
+      <div class="product-img d-flex justify-content-center gap-3 flex-wrap">
+
+        
+        <div class="img-container border w-25">
+          <div class="img-box position-relative overflow-hidden">
+            <img src="./assets/image/slid0/Creamy.jpg"  alt="" class="img1 img-fluid">
+            <img src="./assets/image/slid0/salid.jpg" alt=""  class="img2 img-fluid">
+            <div class="badge bg-danger position-absolute top-0 end-0 m-2">Save 39%</div>
+            <div class="icon-overlay position-absolute top-50 start-50 translate-middle d-flex gap-2">
+              <a href="#" class="btn btn-outline-dark btn-sm"><i class="fa-solid fa-link"></i></a>
+              <a href="#" class="btn btn-outline-dark btn-sm"><i class="fa-regular fa-heart"></i></a>
+              <a href="#" class="btn btn-outline-dark btn-sm"><i class="fa-solid fa-magnifying-glass"></i></a>
+            </div>
+          </div>
+
+          <div class="text-center mt-2">
+            <h2 class="card-title">Creamy Vegetable Salad</h2>
+            <span class="text-success">$121.00</span>
+            <span class="text-decoration-line-through">$200.00</span>
+          </div>
+        </div>
+
+        
+        <div class="img-container border w-25">
+          <div class="img-box position-relative overflow-hidden">
+            <img src="./assets/image/slid0/Boiled.jpg"  alt="" class="img1 img-fluid">
+            <img src="./assets/image/slid0/chekn.jpg"  alt="" class="img2 img-fluid">
+            <div class="badge bg-danger position-absolute top-0 end-0 m-2">Save 39%</div>
+            <div class="icon-overlay position-absolute top-50 start-50 translate-middle d-flex gap-2">
+              <a href="#" class="btn btn-outline-dark btn-sm"><i class="fa-solid fa-link"></i></a>
+              <a href="#" class="btn btn-outline-dark btn-sm"><i class="fa-regular fa-heart"></i></a>
+              <a href="#" class="btn btn-outline-dark btn-sm"><i class="fa-solid fa-magnifying-glass"></i></a>
+            </div>
+          </div>
+
+          <div class="text-center mt-2">
+            <h2 class="card-title">Boiled Prawn Salad</h2>
+            <span class="text-success">$337.00</span>
+            <span class="text-decoration-line-through">$400.00</span>
+          </div>
+        </div>
+
+        
+        <div class="img-container border w-25">
+          <div class="img-box position-relative overflow-hidden">
+            <img src="./assets/image/slid0/fried.jpg" alt="" class="img1 img-fluid">
+            <img src="./assets/image/slid0/Boiled.jpg" alt="" class="img2 img-fluid">
+            <div class="badge bg-danger position-absolute top-0 end-0 m-2">Save 39%</div>
+            <div class="icon-overlay position-absolute top-50 start-50 translate-middle d-flex gap-2">
+              <a href="#" class="btn btn-outline-dark btn-sm"><i class="fa-solid fa-link"></i></a>
+              <a href="#" class="btn btn-outline-dark btn-sm"><i class="fa-regular fa-heart"></i></a>
+              <a href="#" class="btn btn-outline-dark btn-sm"><i class="fa-solid fa-magnifying-glass"></i></a>
+            </div>
+          </div>
+
+          <div class="text-center mt-2">
+            <h2 class="card-title">Fried Fish</h2>
+            <span class="text-success">$337.00</span>
+            <span class="text-decoration-line-through">$450.00</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- Welcome & Services Section Start -->
+<section class="welcome-section">
+  <div class="welcome-header text-center">
+    <h2  class="text-white">Welcome to Spices</h2>
+    <p>Nullam efficitur placerat nulla, in suscipit erat sodales id.</p>
+    <img src="./assets/image/OurMenu/title.png" alt="">
+  </div>
+
+  <div class="services d-flex justify-content-between align-items-center text-center">
+    <div class="service-item">
+      <img src="./assets/image/slid0/open-24hr.png" alt="">
+      <h2 class="service-title text-white">Free Delivery</h2>
+      <button class="service-button"></button>
+      <p>Dolor sit amet consecteur adipisicing elitsed do eiusmod tempor incididunt ulabore et dolore ulabore et dolore Support ante tincidunt tempus</p>
+    </div>
+
+    <div class="service-item">
+      <img src="./assets/image/slid0/support_200x200.png" alt="">
+      <h2 class="service-title text-white">24/7 Customer Support</h2>
+      <button class="service-button"></button>
+      <p>Ullamcorper eget nulla facilisi etiam dignissim diam. Pulvinar proin gravida hendrerit lectus a. Nisl condimentum id venenatis a condiment msrwes</p>
+    </div>
+
+    <div class="service-item">
+      <img src="./assets/image/slid0/free-delivery.png" alt="">
+      <h2 class="service-title text-white">Return of Goods</h2>
+      <button class="service-button"></button>
+      <p>Risus pretium quam vulputate dignissim suspendisse in est ante. Tempus quam pellentesque nec nam aliquam sem id venenatis ispum</p>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+<!-- ========== Taste Section ========== -->
+  <div class="taste taste d-flex justify-content-center align-items-center">
+    <div class="taste-content text-center p-4 rounded-3">
+      <h2 class="taste-title mb-3">Make taste different</h2>
+      <p class="taste-text  mb-4">Fringilla est ullamcorper egetamet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+      <button class="btn taste-btn hovered-btn text-black border-0">View More</button>
+    </div>
+  </div>
+<!-- ========== End Taste Section ========== -->
+
+
+<!-- from the blog -->
+    <section class="blog-section py-5">
+      <div class="container">
+        <div class="text-center mb-5">
+          <h2>From the blog</h2>
+          <p>Neque sodales ut etiam sit amet consectetur adipiscing elit.</p>
+        </div>
+
+        <div class="row g-4 justify-content-center">
+
+          <div class="col-md-4 col-sm-10">
+            <div class="card blog-card position-relative">
+              <span class="date-badge">August 4, 2018</span>
+              <a href="./grilled-chicken-with-masala.html"><img src="./assets/image/blog/blog1.jpg" alt=""></a>
+              <div class="blog-body">
+                <h5>Grilled chicken with masala</h5>
+                <p>Lorem cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus...</p>
+                <div class="blog-icons">
+                  <span>🍗 Chicken</span>
+                  <span>👤 By Ram M</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          
+          <div class="col-md-4 col-sm-10">
+            <div class="card blog-card position-relative">
+              <span class="date-badge">August 4, 2018</span>
+              <img src="./assets/image/blog/blog2.jpg" alt="">
+              <div class="blog-body">
+                <h5>Stuffed chicken with masala</h5>
+                <p>Cames cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus...</p>
+                <div class="blog-icons">
+                  <span>🍗 Chicken</span>
+                  <span>👤 By Ram M</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          
+          <div class="col-md-4 col-sm-10">
+            <div class="card blog-card position-relative">
+              <span class="date-badge">August 4, 2018</span>
+              <img src="./assets/image/blog/blog3.jpg" alt="">
+              <div class="blog-body">
+                <h5>Spicy burger</h5>
+                <p>Ridulus cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus...</p>
+                <div class="blog-icons">
+                  <span>🍔 Burger</span>
+                  <span>👤 By Ram M</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        
+        <div class="pagination-custom">
+          <button>&lt;</button>
+          <button>&gt;</button>
+        </div>
+      </div>
+    </section>
+
+
+<!-- START Subscribe Newsletter -->
+<section class="newsletter-section text-center">
+  <div class="">
+    <div class="newsletter-box d-flex justify-content-center align-items-center gap-5">
+      <h4 class="newsletter-title text-uppercase me-5">Subscribe Newsletter</h4>
+      <input type="email" class="newsletter-input" placeholder="Your email address">
+      <button class="newsletter-btn  ms-5 me-5  pt-3 pb-3">Subscribe</button>
+    </div>
+  </div>
+</section>
+<!-- END Subscribe Newsletter -->
+
+
+<!-- START Footer -->
+<footer class="footer-menu ">
+  <div class="container d-flex justify-content-center align-items-center flex-column gap-5 pt-5">
+    <img src="" alt="">
+    <div class="d-flex align-items-center gap-2">
+      <i class="fa-solid fa-house"></i>
+      <h5 class="mb-0">No: 58 A, East Madison Street, Baltimore, MD, USA 4508</h5>
+    </div>
+    
+    <div class="d-flex align-items-center gap-2">
+      <i class="fa-solid fa-phone"></i>
+      <h5 class="mb-0">0000 - 123 - 456789</h5>
+    </div>
+    
+    <div class="d-flex align-items-center gap-2">
+      <i class="fa-solid fa-envelope"></i>
+      <h5 class="mb-0">info@example.com</h5>
+    </div>
+
+    <div class="d-flex align-items-center gap-2">
+      <i class="fa-brands fa-twitter"></i>
+      <i class="fa-brands fa-facebook"></i>
+      <i class="fa-brands fa-google-plus"></i>
+      <i class="fa-brands fa-tumblr"></i>
+    </div>
+    
+  </div>
+</footer>
+<!-- END Footer -->
+
+
+<!-- Design End / Bottom Footer Start -->
+<div class=" design-end d-flex justify-content-between align-items-center p-3 ">
+
+  <p class="mb-0">© 2025 Eatzy (password: buddha) Design Themes</p>
+
+  <div>
+    <i class="fa-brands fa-cc-visa ms-3"></i>
+    <i class="fa-brands fa-cc-mastercard ms-3"></i>
+    <i class="fa-brands fa-cc-paypal ms-3"></i>
+    <i class="fa-brands fa-cc-amex ms-3"></i>
+    <i class="fa-brands fa-cc-discover ms-3"></i>
+  </div>
+</div>
+<!-- Design End / Bottom Footer End -->
+
+
+        <!-- JS -->
+    <script src="./assets/js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+  </body>
+</html>

@@ -1,0 +1,494 @@
+/* ============================= */
+/*        ROOT VARIABLES         */
+/* ============================= */
+:root {
+  --primary-color: #a80b04;
+  --light-bg: #f5f5f5;
+  --color-yallo: #ffc600;
+  --Dark-Gray: #212121;
+}
+
+
+/* ============================= */
+/*         NAVBAR SECTION        */
+/* ============================= */
+.navbar-nav .nav-link.active,
+.navbar .navbar-nav .nav-link:focus,
+.navbar .navbar-nav .nav-link:hover {
+  color: var(--primary-color);
+}
+
+.nav_scroll {
+  background-color: #ECAB9D !important;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.546);
+}
+
+
+/* ============================= */
+/*         HERO / CAROUSEL       */
+/* ============================= */
+.hero-line1 {
+  color: var(--primary-color);
+  font-family: "Lobster Two", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 32px;
+}
+
+.hero-line2 {
+  font-family: "Cinzel", serif;
+  font-size: 54px;
+}
+
+.hero-line3 {
+  font-family: "Lobster Two", sans-serif;
+  font-size: 30px;
+  color: var(--color-yallo);
+}
+
+.hovered-btn {
+  background-color: var(--primary-color);
+  color: white;
+  width: 140px;
+  height: 39px;
+}
+
+.hovered-btn:hover {
+  background-color: var(--color-yallo);
+  color: black;
+}
+
+
+/* ============================= */
+/*         OUR MENU SECTION      */
+/* ============================= */
+.menu-title {
+  font-family: Cinzel, serif;
+  font-size: 31px;
+}
+
+.menu-description {
+  font-family: Poppins, sans-serif;
+  font-size: 14px;
+}
+
+.dotted-border {
+  border: 2px dotted var(--primary-color);
+}
+
+.menu-item-title {
+  color: var(--primary-color);
+}
+
+.img-chef {
+  max-width: 150px;
+  margin-top: 50px;
+  margin-bottom: 0;
+}
+
+.hovered-btn-chef {
+  width: 108px;
+  height: 173px;
+  background-color: var(--primary-color);
+  border: none;
+}
+
+.hovered-btn-chef:hover {
+  background-color: var(--color-yallo);
+  color: black;
+}
+
+
+/* ============================= */
+/*        TASTE SECTION          */
+/* ============================= */
+.taste {
+  background-image: url(../image/session6/onion.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+}
+
+.taste-content {
+  color: white;
+  max-width: 700px;
+}
+
+.taste-title {
+  font-family: Cinzel, serif;
+  font-size: 50px;
+}
+
+.taste-text {
+  font-family: Poppins, sans-serif;
+  font-size: 14px;
+}
+
+.taste-btn {
+  background-color: white;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+
+/* ============================= */
+/*         PRODUCTS SECTION      */
+/* ============================= */
+.products {
+  background-image: url(../image/session5/SP.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.product-card {
+  height: 600px;
+}
+
+.product-info {
+  background-color: white;
+  width: 45%;
+  height: 600px;
+}
+
+.product-title {
+  text-align: center;
+  margin-right: 60px;
+  color: black;
+}
+
+.product-description {
+  text-align: center;
+  color: black;
+}
+
+.card-title {
+  font-size: 10px;
+}
+
+
+/* -------- Image hover effect -------- */
+.img-container {
+  width: 250px;
+  margin: 10px;
+}
+
+.img-box {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+
+.img-box img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: opacity 0.4s ease;
+}
+
+.img1 {
+  opacity: 1;
+}
+
+.img2 {
+  opacity: 0;
+}
+
+.img-box:hover .img2 {
+  opacity: 0.7;
+}
+
+.img-box:hover .img1 {
+  opacity: 0.3;
+}
+
+.img-info {
+  padding: 10px 0;
+}
+
+.img-box .icon-overlay {
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.img-box:hover .icon-overlay {
+  opacity: 1;
+}
+
+
+/* ============================= */
+/*        WELCOME SECTION        */
+/* ============================= */
+.welcome-section {
+  background-image: url(../image/session5/parallax-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.welcome-header {
+  margin-bottom: 50px;
+  padding: 30px;
+}
+
+.service-item {
+  padding: 20px;
+  margin: 20px;
+}
+
+.service-button {
+  width: 76px;
+  height: 3px;
+  background-color: var(--color-yallo);
+  border: none;
+  border-radius: 5px;
+  transition-duration: 0.5s;
+}
+
+.service-button:hover {
+  background-color: var(--primary-color);
+}
+
+.service-title {
+  font-family: Cinzel, serif;
+  font-size: 30px;
+  color: white;
+}
+
+p {
+  font-family: Poppins, sans-serif;
+  font-size: 14px;
+  color: white;
+}
+
+
+/* ============================= */
+/*       OUR MENU WORK BOX       */
+/* ============================= */
+.our-work box {
+  padding: 5px;
+  overflow: hidden;
+  position: relative;
+}
+
+.our-work .box::before {
+  content: attr(data-work);
+}
+
+
+/* ============================= */
+/*       GENERAL LINK HOVER      */
+/* ============================= */
+.link-hover {
+  color: #000;
+  text-decoration: none;
+}
+
+.link-hover:hover {
+  color: var(--primary-color);
+}
+
+
+/* ============================= */
+/*        GENERAL CARD STYLE     */
+/* ============================= */
+.card-img-wrapper {
+  padding: 20px;
+  text-align: center;
+}
+
+.card-img-wrapper img {
+  width: 70%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  transition: box-shadow 0.3s ease;
+}
+
+.shop:hover {
+  background-color: var(--color-yallo);
+}
+
+
+/* ============================= */
+/*         BLOG SECTION          */
+/* ============================= */
+.blog-section h2 {
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.blog-card {
+  border: none;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+  overflow: hidden;
+}
+
+.blog-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}
+
+.blog-card img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.date-badge {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  background-color: var(--primary-color);
+  color: #fff;
+  padding: 5px 12px;
+  font-size: 13px;
+  border-radius: 3px;
+  font-weight: 500;
+}
+
+.blog-body {
+  padding: 20px;
+}
+
+.blog-body h5 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.blog-body p {
+  color: #555;
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+
+.blog-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #eee;
+  padding-top: 10px;
+}
+
+.blog-icons span {
+  font-size: 14px;
+  color: var(--primary-color);
+}
+
+.pagination-custom {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 30px;
+}
+
+.pagination-custom button {
+  border: 1px solid var(--primary-color);
+  background: none;
+  color: var(--primary-color);
+  border-radius: 5px;
+  width: 40px;
+  height: 40px;
+  transition: 0.3s;
+}
+
+.pagination-custom button:hover {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
+/* ============================= */
+/*     grilled-chicken-with-masala.html      */
+/* ============================= */
+
+
+.Older-Post:hover{
+  background-color: var(--color-yallo);
+  color: black;
+  border: 2px solid var(--primary-color);
+
+}
+
+
+
+/* ============================= */
+/*     SUBSCRIBE NEWSLETTER      */
+/* ============================= */
+.newsletter-box {
+  background-color: var(--color-yallo);
+  width: 100%;
+  height: 120px;
+}
+
+.newsletter-title {
+  font-family: Cinzel, serif;
+  font-size: 31px;
+  margin-left: 10px;
+}
+
+.newsletter-input {
+  background-color: var(--color-yallo);
+  padding: 9px 10px;
+  border: 1px solid white;
+  border-radius: 10px;
+  width: 544px;
+}
+
+.newsletter-btn {
+  background-color: white;
+  color: var(--primary-color);
+  width: 120px;
+  height: 45px;
+}
+
+.newsletter-btn:hover {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+
+/* ============================= */
+/*           FOOTER              */
+/* ============================= */
+footer {
+  background-image: url(/assets/image/footer/footer.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: calc(100vh - 72px);
+  padding: 50px 0;
+}
+
+
+/* ============================= */
+/*         BOTTOM FOOTER         */
+/* ============================= */
+.design-end {
+  background-color: var(--Dark-Gray);
+  height: 80px;
+  width: 100%;
+}
+
+.design-end p {
+  color: #fff;
+}
+
+.design-end i {
+  color: #fff;
+  font-size: 1.2rem;
+}
